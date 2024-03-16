@@ -885,7 +885,6 @@ section {
 }
 .custom-tabs .nav-link {
   border: 2px solid transparent;
-  border-radius: 35px;
   color: black;
 }
 .custom-tabs .nav-link.active {
@@ -893,6 +892,7 @@ section {
   border-color: #dee2e6 #dee2e6 #fff;
   color: white;
 }
+
 /* Additional styling for images */
 .img-fluid {
   border-radius: 10px;
