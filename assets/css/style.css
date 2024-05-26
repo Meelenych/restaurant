@@ -6,12 +6,12 @@ body {
 }
 
 a {
-  color: #cda45e;
+  color: #005740;
   text-decoration: none;
 }
 
 a:hover {
-  color: #d9ba85;
+  color: #00f5b4;
   text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(12, 11, 9, 0.6);
+  background: rgba(89, 4, 136, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
@@ -120,23 +120,13 @@ h6 {
   border-bottom: 1px solid #37332a;
 }
 
-#header .logo {
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 300;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-}
-
-#header .logo a {
-  color: #fff;
-}
-
-#header .logo img {
-  max-height: 40px;
+.logo {
+  font-size: 35px;
+  font-family: "Freehand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #005740;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
