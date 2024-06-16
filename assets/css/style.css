@@ -185,10 +185,10 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  color: #fff;
+  color: #fcffcf;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 1.5rem;
 }
 
 .navbar a i,
@@ -202,7 +202,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #d9ba85;
+  color: #005740;
 }
 
 /**
@@ -263,13 +263,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #fff;
+  color: #005740;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #cda45e;
+  color: #005740;
 }
 
 .navbar-mobile .getstarted,
@@ -378,12 +378,12 @@ h6 {
   transition: 0.3s;
   line-height: 1;
   color: white;
-  border: 2px solid #cda45e;
+  border: 2px solid rgba(89, 4, 136, 0.6);
 }
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
-  background: #cda45e;
+  background: #005740;
   color: #fff;
 }
 
